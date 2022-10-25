@@ -1,0 +1,25 @@
+.container{
+    color: aqua;
+    text-align: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: black;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.form{
+    display: list-item;
+    justify-content: ;
+    border: 2px solid blue ;
+    width:350px;
+    height:200px;
+    text-align: end;
+}
+
+    
