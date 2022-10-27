@@ -1,42 +1,47 @@
 * {
     line-height: 1.5;
-    background-color: cornflowerblue;
-    
     list-style: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+     margin: 2px;
+    padding: 2px;
+    
+    
   }
+ 
 
   .index-header {
     text-align: center;
     color: wheat;
-    
-    font-family: cursive
-}
-.index-header h3{
-    text-align: center;
-    color: black;
-   
-}
-.nav {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-   align-items: center;
-    
+    background-color: black;
+    font-family: 'Fuzzy+Bubbles#styles'
 }
 
+  
+.index-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.index-ul li a{
+  color: black;
+}
+
+.index-ul li a:hover {
+  color: red;
+}
 .imagenes{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    border: 1px groove ;
+    background-color: 
+    wheat;
    
 }
 
 
-footer {
+.footer {
     width: 100%;
     display: flex;
     flex-direction: row;
