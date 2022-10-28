@@ -4,11 +4,10 @@
      margin: 2px;
     padding: 2px;
     
-    
-  }
+ }
  
 
-  .index-header {
+.index-header {
     border: 1px groove;
     text-align: center;
     color: wheat;
@@ -33,16 +32,6 @@
 .index-ul li a:hover {
   color: rgb(93, 182, 204);
 }
-.imagenes{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    border: 1px groove ;
-    background-color: 
-    wheat;
-   
-}
-
 
 .footer {
     width: 100%;

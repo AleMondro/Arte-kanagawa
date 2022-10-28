@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arte-Kanagawa</title>
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
           <link rel="stylesheet" href="'Tangerine'">
           <link rel="stylesheet" href="https://fonts.google.com/specimen/Fuzzy+Bubbles#styles">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
-rel="stylesheet" 
-integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
-crossorigin="anonymous">
-
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+          
+    <title>Arte-Kanagawa</title>
 </head>
 
 <body>
@@ -29,8 +28,12 @@ crossorigin="anonymous">
   
        
         <nav class="index-nav">
-          
-            <ul class="index-ul">
+             <ul class="index-ul">
+                <li>
+                    <a href="">
+                      <i class="fa-sharp fa-solid fa-bars"></i>
+                    </a>
+                  </li>
                 <li>
                     <a href="/index.html">Inicio</a>
                 </li>
@@ -40,24 +43,41 @@ crossorigin="anonymous">
                 <li>
                     <a href="/contact.html">contacto</a>
                 </li>
+                <li>
+                    <a href="">
+                      <i class="fa-solid fa-user"></i>
+                    </a>
+                    
+                  </li>
             </ul>
         </nav>
     
         
    
     <main>
-        
-    <section class="imagenes">
-            <div class="img1">
-        <img src="img/la-costa-de-kamakura.jpg" class="rounded float-start" alt="amanecer" width="300px" height="300px">
+       <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/ola-kanaga-1.jpg" alt=".." class="d-block w-100">
             </div>
-            <div class="img2">
-        <img src="img/fujifrom.jpg" class="rounded float-start" alt="fuji" width="300px" height="300px">
+            <div class="carousel-item">
+                <img src="./img/fujifrom.jpg" alt=".." class="d-block w-100">
             </div>
-            <div class="img3">
-        <img src="img/ola-kanaga-1.jpg"class="rounded float-start" alt="ola-kanagawa" width="300px" height="300px">
-            </div>
-    </section>
+        </div>
+        <a href="#carouselExample" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a href="#carouselExample" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </a>
+       </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      </main>
     <footer>
       <section class="index-footer__section">
@@ -79,6 +99,6 @@ crossorigin="anonymous">
         </div>
       </section>
     </footer>
-    
+   
 </body>
 </html>
