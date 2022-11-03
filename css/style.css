@@ -21,6 +21,7 @@
   border: 1px groove;
   margin: 1px;
   padding: 1px;
+  list-style: none;
 }
 .index-ul li a{
   color: black;
@@ -63,7 +64,8 @@
     
   
   }
-
-  
+    
+    
+  @media (min-width: 768px)
  
   
