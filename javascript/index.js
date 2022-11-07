@@ -1,28 +1,12 @@
 
-let nombre = "alejandro";
-let apellido = "mondragon";
-let edad = 27;
-let mascotas = "perro";
+/*let entryNumber = prompt("Ingrese un numero");
 
-let nombreApellido = nombre + " " + apellido;
-
-console.log(nombreApellido);
-
-let entrada = prompt("ingrese su nombre");
-let salida = entrada + " " + "ingresado";
+if(entryNumber >= 10){
 
 
-alert(salida);
-console.log(salida);
+    if(entryNumber <= 50) {
 
+    alert("El valor ingresado es mayor o igual a 10 y menor o igual a 50")
+    }
+}*/
 
-let numeroUno = 5;
-
-let numeroDos = 10;
-
-let resultadoSuma = numeroUno + numeroDos;
-let resultadoResta = numeroUno - numeroDos;
-let resultadoMulti = numeroUno * numeroDos;
-let resultadoDiv = numeroUno / numeroDos;
-
-console.log(resultadoDiv);
